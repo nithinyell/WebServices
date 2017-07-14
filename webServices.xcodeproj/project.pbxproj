@@ -13,6 +13,8 @@
 		63CE75F21F16C2E600C26A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CE75F01F16C2E600C26A58 /* Main.storyboard */; };
 		63CE75F41F16C2E600C26A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CE75F31F16C2E600C26A58 /* Assets.xcassets */; };
 		63CE75F71F16C2E600C26A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CE75F51F16C2E600C26A58 /* LaunchScreen.storyboard */; };
+		63CE76001F16C33C00C26A58 /* services.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE75FF1F16C33C00C26A58 /* services.m */; };
+		63CE76031F16E02500C26A58 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE76021F16E02500C26A58 /* XMLReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		63CE75F31F16C2E600C26A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63CE75F61F16C2E600C26A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63CE75F81F16C2E600C26A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CE75FE1F16C33C00C26A58 /* services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = services.h; sourceTree = "<group>"; };
+		63CE75FF1F16C33C00C26A58 /* services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = services.m; sourceTree = "<group>"; };
+		63CE76011F16E02500C26A58 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		63CE76021F16E02500C26A58 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				63CE75EB1F16C2E600C26A58 /* AppDelegate.m */,
 				63CE75ED1F16C2E600C26A58 /* ViewController.h */,
 				63CE75EE1F16C2E600C26A58 /* ViewController.m */,
+				63CE75FE1F16C33C00C26A58 /* services.h */,
+				63CE75FF1F16C33C00C26A58 /* services.m */,
+				63CE76011F16E02500C26A58 /* XMLReader.h */,
+				63CE76021F16E02500C26A58 /* XMLReader.m */,
 				63CE75F01F16C2E600C26A58 /* Main.storyboard */,
 				63CE75F31F16C2E600C26A58 /* Assets.xcassets */,
 				63CE75F51F16C2E600C26A58 /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CE75EF1F16C2E600C26A58 /* ViewController.m in Sources */,
+				63CE76001F16C33C00C26A58 /* services.m in Sources */,
+				63CE76031F16E02500C26A58 /* XMLReader.m in Sources */,
 				63CE75EC1F16C2E600C26A58 /* AppDelegate.m in Sources */,
 				63CE75E91F16C2E600C26A58 /* main.m in Sources */,
 			);

@@ -1,10 +1,9 @@
 //
 //  XMLReader.h
+//  webServices
 //
-//  Created by Troy Brant on 9/18/10.
-//  Updated by Antoine Marcadet on 9/23/11.
-//  Updated by Divan Visagie on 2012-08-26
-//
+//  Created by BABA on 7/12/17.
+//  Copyright © 2017 iOSDevs. All rights reserved.
 
 #import <Foundation/Foundation.h>
 

@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XMLReader.h"
 
 @interface services : NSObject
+
++(id)sharedManager;
+
+-(void)getDataFromURL:(NSString *)URLString isJSON:(BOOL)URLType completionHandler:(void (^)(NSDictionary *results))completionHandler;
 
 @end

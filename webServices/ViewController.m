@@ -16,14 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+  
+    
+    NSString *XMLURL = @"https://itunes.apple.com/us/rss/topaudiobooks/limit=10/xml";
+    //NSString *JSONURL = @"http://rest-service.guides.spring.io/greeting";
+    
+    
+    
+    [[services sharedManager]getDataFromURL:XMLURL isJSON:NO completionHandler:^(NSDictionary *results) {
+        
+        NSLog(@"result in viewController %@",results);
+        
+    }];
+    
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
